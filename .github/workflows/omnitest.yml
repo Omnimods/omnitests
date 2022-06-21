@@ -1,4 +1,4 @@
-name: Pyanodon Tests
+name: Omni Tests
 
 on:
   workflow_call:
