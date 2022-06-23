@@ -1,7 +1,7 @@
 {
     "include": [
         {
-            "name": "test",
+            "name": "testset",
             "mods": [
                 "testmod"
             ]
