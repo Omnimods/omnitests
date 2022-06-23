@@ -8,6 +8,9 @@ set -euo pipefail
 echo "test1"
 
 echo -n "::set-output name=matrix::"
+
+echo "test10"
+
 { 
     if [ ${mod_name:+1} ]; then
         echo "test11"
