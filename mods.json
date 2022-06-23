@@ -3,5 +3,15 @@
         "name": "omnilib",
         "repository": "Omnimods/Omnimods/omnilib",
         "url": "https://github.com/Omnimods/Omnimods/tree/master/omnilib"
+    },
+    {
+        "name": "omnimatter",
+        "repository": "Omnimods/Omnimods/omnimatter",
+        "url": "https://github.com/Omnimods/Omnimods/tree/master/omnimatter"
+    },
+    {
+        "name": "omnifluid",
+        "repository": "Omnimods/Omnimods/omnifluid",
+        "url": "https://github.com/Omnimods/Omnimods/tree/master/omnifluid"
     }
 ]
