@@ -2,7 +2,8 @@
 set -euo pipefail
 
 #if [[ -n ${EVENT_REPOSITORY} ]]; then 
-    mod_name=$(jq '.[] | if .repository==env.EVENT_REPOSITORY then .name else empty end' mods.json);
+    #mod_name=$(jq '.[] | if .repository==env.EVENT_REPOSITORY then .name else empty end' mods.json);
+    mod_name=$(jq '.[] | empty' mods.json);
 #fi
 
 echo "test1"
