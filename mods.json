@@ -1,5 +1,10 @@
 [
     {
+        "name": "testmod",
+        "repository": "Omnimods/Omnimods/testmod",
+        "url": "https://github.com/Omnimods/testmod"
+    },
+    {
         "name": "omnilib",
         "repository": "Omnimods/Omnimods/omnilib",
         "url": "https://github.com/Omnimods/Omnimods"
@@ -13,20 +18,5 @@
         "name": "omnifluid",
         "repository": "Omnimods/Omnimods/omnifluid",
         "url": "https://github.com/Omnimods/Omnimods/tree/master/omnifluid"
-    },
-    {
-        "name": "pycoalprocessing",
-        "repository": "pyanodon/pycoalprocessing",
-        "url": "https://github.com/pyanodon/pycoalprocessing"
-    },
-    {
-        "name": "pycoalprocessinggraphics",
-        "repository": "pyanodon/pycoalprocessinggraphics",
-        "url": "https://github.com/pyanodon/pycoalprocessinggraphics"
-    },
-    {
-        "name": "pypostprocessing",
-        "repository": "pyanodon/pypostprocessing",
-        "url": "https://github.com/pyanodon/pypostprocessing"
     }
 ]
