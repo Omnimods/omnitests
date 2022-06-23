@@ -3,7 +3,7 @@
         "name": "testmod",
         "repository": "Omnimods/Omnimods/testmod",
         "url": "https://github.com/Omnimods/testmod"
-    }
+    },
     {
         "name": "omnilib",
         "repository": "Omnimods/Omnimods/omnilib",
