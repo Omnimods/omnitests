@@ -1,11 +1,9 @@
 {
     "include": [
         {
-            "name": "PyCoal",
+            "name": "test",
             "mods": [
-                "pycoalprocessing", 
-                "pycoalprocessinggraphics",
-                "pypostprocessing"
+                "testmod"
             ]
         } 
     ]
