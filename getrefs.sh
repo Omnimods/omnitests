@@ -10,8 +10,10 @@ echo "test1"
 echo -n "::set-output name=matrix::"
 { 
     if [ ${mod_name:+1} ]; then
+        echo "test11"
         jq ".include[] | if .mods | any(.==$mod_name) then . else empty end" mod-sets.json | jq -sc '.'
     else
+        echo "test12"
         jq -c '.include' mod-sets.json
     fi
     
