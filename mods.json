@@ -1,12 +1,12 @@
 [
     {
         "name": "testmod",
-        "repository": "Omnimods/Omnimods/testmod",
+        "repository": "Omnimods/testmod",
         "url": "https://github.com/Omnimods/testmod"
     },
     {
         "name": "omnilib",
         "repository": "Omnimods/Omnimods/omnilib",
-        "url": "https://github.com/Omnimods/omnilib"
+        "url": "https://github.com/Omnimods/Omnimods/tree/master/omnilib"
     }
 ]
