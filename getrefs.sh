@@ -4,7 +4,9 @@ set -euo pipefail
 #if [[ -n ${EVENT_REPOSITORY} ]]; then 
 #    mod_name=$(jq '.[] | if .repository==env.EVENT_REPOSITORY then .name else empty end' mods.json);
 #fi
-echo "test"
+
+echo "test1"
+
 echo -n "::set-output name=matrix::"
 { 
     if [ ${mod_name:+1} ]; then
@@ -12,6 +14,8 @@ echo -n "::set-output name=matrix::"
     else
         jq -c '.include' mod-sets.json
     fi
+    
+echo "test1"
 
     jq -c '.[]' mods.json |
     while read -r i; do
