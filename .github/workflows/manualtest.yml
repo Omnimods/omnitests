@@ -1,0 +1,12 @@
+name: Manual test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test1:
+    name: Test Full
+    uses: Omnimods/omnitests/.github/workflows/omnitest.yml@main
+    with:
+      test_ref: main
+    secrets: inherit
