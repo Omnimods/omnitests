@@ -1,18 +1,12 @@
 {
     "include": [
         {
-            "name": "omnimatter",
+            "name": "PyCoal",
             "mods": [
-                "omnilib",
-                "omnimatter"
+                "pycoalprocessing", 
+                "pycoalprocessinggraphics",
+                "pypostprocessing"
             ]
-        },
-        {
-            "name": "omnifluid",
-            "mods": [
-                "omnilib",
-                "omnifluid"
-            ]
-        }
+        } 
     ]
 }
