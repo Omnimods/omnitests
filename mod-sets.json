@@ -1,10 +1,18 @@
 {
     "include": [
         {
-            "name": "omnilib",
+            "name": "omnimatter",
             "mods": [
-                "omnilib"
+                "omnilib",
+                "omnimatter"
             ]
         },
+        {
+            "name": "omnifluid",
+            "mods": [
+                "omnilib",
+                "omnifluid"
+            ]
+        }
     ]
 }
