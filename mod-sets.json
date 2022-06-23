@@ -3,9 +3,7 @@
         {
             "name": "omnilib",
             "mods": [
-                "omnilib", 
-                "pycoalprocessinggraphics",
-                "pypostprocessing"
+                "omnilib"
             ]
         },
     ]
