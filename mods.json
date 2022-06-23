@@ -5,8 +5,8 @@
         "url": "https://github.com/Omnimods/testmod"
     },
     {
-        "name": "omnilib",
-        "repository": "Omnimods/Omnimods/omnilib",
-        "url": "https://github.com/Omnimods/Omnimods"
+        "name": "pycoalprocessing",
+        "repository": "pyanodon/pycoalprocessing",
+        "url": "https://github.com/pyanodon/pycoalprocessing"
     }
 ]
