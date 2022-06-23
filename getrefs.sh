@@ -6,22 +6,22 @@ set -euo pipefail
     mod_name=$(jq '.[] | empty' mods.json);
 #fi
 
-echo "test1"
+echo "test1\n"
 
 echo -n "::set-output name=matrix::"
 
-echo "test10"
+echo "test10\n"
 
 { 
     if [ ${mod_name:+1} ]; then
-        echo "test11"
+        echo "test11\n"
         jq ".include[] | if .mods | any(.==$mod_name) then . else empty end" mod-sets.json | jq -sc '.'
     else
-        echo "test12"
+        echo "test12\n"
         jq -c '.include' mod-sets.json
     fi
     
-echo "test2"
+echo "test2\n"
 
     jq -c '.[]' mods.json |
     while read -r i; do
