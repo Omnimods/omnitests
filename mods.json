@@ -4,19 +4,4 @@
         "repository": "Omnimods/Omnimods/testmod",
         "url": "https://github.com/Omnimods/testmod"
     },
-    {
-        "name": "omnilib",
-        "repository": "Omnimods/Omnimods/omnilib",
-        "url": "https://github.com/Omnimods/Omnimods"
-    },
-    {
-        "name": "omnimatter",
-        "repository": "Omnimods/Omnimods/omnimatter",
-        "url": "https://github.com/Omnimods/Omnimods/tree/master/omnimatter"
-    },
-    {
-        "name": "omnifluid",
-        "repository": "Omnimods/Omnimods/omnifluid",
-        "url": "https://github.com/Omnimods/Omnimods/tree/master/omnifluid"
-    }
 ]
