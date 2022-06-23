@@ -15,7 +15,7 @@ echo -n "::set-output name=matrix::"
         jq -c '.include' mod-sets.json
     fi
     
-echo "test1"
+echo "test2"
 
     jq -c '.[]' mods.json |
     while read -r i; do
@@ -28,6 +28,8 @@ echo "test1"
             branch=$(git remote show "$url" | grep 'HEAD branch' | cut -d' ' -f5)
             ref=$(git ls-remote -h "$url" "$branch" | awk '{print $1}')
         fi
+        
+        echo "test3"
         
         echo "$i" "$(echo "$ref" | jq -R '{ref: .}')" |
         jq -s '{name: .[0].name, repository: .[0].repository, ref:.[1].ref}'
