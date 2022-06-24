@@ -1,6 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
+pwd
+ls -al
+
 jq -c '.[]' mods.json |
 while read -r i; do
     mod_repo=$(echo "$i" | jq -cr '.repository')
