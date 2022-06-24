@@ -1,25 +1,119 @@
 {
     "include": [
         {
-            "name": "testset1",
+            "name": "pure_omni_light",
             "mods": [
-                "testmod",
-                "testmod2"
-            ]
-        },
-        {
-            "name": "testset2",
-            "mods": [
-                "testmod",
-                "testmod3"
-            ]
-        },
-        {
-            "name": "testset3",
-            "mods": [
-                "testmod",
                 "omnilib",
                 "omnimatter"
+            ]
+        },
+        {
+            "name": "pure_omni_qol",
+            "mods": [
+                "omnilib",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "omnimatter_move",
+                "omnimatter_permutation"
+            ]
+        },
+        {
+            "name": "pure_omni_full",
+            "mods": [
+                "omnilib",
+                "omnimatter",
+                "omnimatter_crystal",
+                "omnimatter_energy",
+                "omnimatter_water",
+                "omnimatter_wood",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "omnimatter_permutation"
+            ]
+        },
+        {
+            "name": "AZ",
+            "mods": [
+                "omnilib",
+                "omnimatter",
+                "omnimatter_crystal",
+                "omnimatter_energy",
+                "omnimatter_water",
+                "omnimatter_wood",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "omnimatter_permutation",
+                "angelssmelting",
+                "angelsrefining",
+                "angelsindustries",
+                "angelspetrochem",
+                "angelsbioprocessing"
+            ]
+        },
+        {
+            "name": "BZ",
+            "mods": [
+                "omnilib",
+                "omnimatter",
+                "omnimatter_crystal",
+                "omnimatter_energy",
+                "omnimatter_water",
+                "omnimatter_wood",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "omnimatter_permutation",
+                "bobassembly",
+                "bobclasses",
+                "bobelectronics",
+                "bobgreenhouse",
+                "bobinserters",
+                "boblibrary",
+                "boblogistics",
+                "bobmining",
+                "bobmodules",
+                "bobores",
+                "bobplates",
+                "bobpower",
+                "bobrevamp",
+                "bobtech"
+            ]
+        },
+        {
+            "name": "ABZ",
+            "mods": [
+                "omnilib",
+                "omnimatter",
+                "omnimatter_crystal",
+                "omnimatter_energy",
+                "omnimatter_water",
+                "omnimatter_wood",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "omnimatter_permutation",
+                "angelssmelting",
+                "angelsrefining",
+                "angelsindustries",
+                "angelspetrochem",
+                "angelsbioprocessing",
+                "bobassembly",
+                "bobclasses",
+                "bobelectronics",
+                "bobgreenhouse",
+                "bobinserters",
+                "boblibrary",
+                "boblogistics",
+                "bobmining",
+                "bobmodules",
+                "bobores",
+                "bobplates",
+                "bobpower",
+                "bobrevamp",
+                "bobtech"
             ]
         }
     ]

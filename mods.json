@@ -1,20 +1,5 @@
 [
     {
-        "name": "testmod",
-        "repository": "Omnimods/testmod",
-        "url": "https://github.com/Omnimods/testmod"
-    },
-    {
-        "name": "testmod2",
-        "repository": "Omnimods/testmod2",
-        "url": "https://github.com/Omnimods/testmod2"
-    },
-    {
-        "name": "testmod3",
-        "repository": "Omnimods/testmod3",
-        "url": "https://github.com/Omnimods/testmod3"
-    },
-    {
         "name": "omnilib",
         "repository": "Omnimods/Omnimods",
         "url": "https://github.com/Omnimods/Omnimods"
@@ -23,5 +8,145 @@
         "name": "omnimatter",
         "repository": "Omnimods/Omnimods",
         "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_compression",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_crystal",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_energy",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_fluid",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_move",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_permutation",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_science",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_water",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter_wood",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "angelssmelting",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods"
+    },
+    {
+        "name": "angelsrefining",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods"
+    },
+    {
+        "name": "angelsindustries",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods"
+    },
+    {
+        "name": "angelspetrochem",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods"
+    },
+    {
+        "name": "angelsbioprocessing",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods"
+    },
+    {
+        "name": "bobassembly",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobclasses",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobelectronics",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobgreenhouse",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobinserters",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "boblibrary",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "boblogistics",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobmining",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobmodules",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobores",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobplates",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobpower",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobrevamp",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
+    },
+    {
+        "name": "bobtech",
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
     }
 ]
