@@ -3,7 +3,8 @@
         {
             "name": "pure_omni_light",
             "mods": [
-                "omnilib"
+                "omnilib",
+                "omnimatter"
             ]
         }
     ]
