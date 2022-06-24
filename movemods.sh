@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
+cd ..
 pwd
 ls -al
 
