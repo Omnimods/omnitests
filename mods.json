@@ -5,8 +5,13 @@
         "url": "https://github.com/Omnimods/testmod"
     },
     {
-        "name": "pycoalprocessing",
-        "repository": "pyanodon/pycoalprocessing",
-        "url": "https://github.com/pyanodon/pycoalprocessing"
+        "name": "testmod2",
+        "repository": "Omnimods/testmod2",
+        "url": "https://github.com/Omnimods/testmod2"
+    },
+    {
+        "name": "testmod3",
+        "repository": "Omnimods/testmod3",
+        "url": "https://github.com/Omnimods/testmod3"
     }
 ]
