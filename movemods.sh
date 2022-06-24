@@ -12,13 +12,13 @@ while read -r i; do
     echo $mod_name
     echo $mod_repo
 
-    if [[ ! -f ./"$mod_repo"/"$info.json" ]]; then
+    if [[ ! -f ./"$mod_repo"/"info.json" ]]; then
         mod_repo=$mod_repo/$mod_name
     fi
 
     echo $mod_name
     echo $mod_repo
-    
+
     if [[ -d ./"$mod_repo" ]]; then
         mkdir -p ./factorio/mods/"$mod_name"
         mv ./"$mod_repo"/* ./factorio/mods/"$mod_name"
