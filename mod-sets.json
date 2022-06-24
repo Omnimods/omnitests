@@ -3,21 +3,21 @@
         {
             "name": "testset1",
             "mods": [
-                "testmod"
+                "testmod",
                 "testmod2"
             ]
         },
         {
             "name": "testset2",
             "mods": [
-                "testmod"
+                "testmod",
                 "testmod3"
             ]
         },
         {
             "name": "testset3",
             "mods": [
-                "testmod2"
+                "testmod2",
                 "testmod3"
             ]
         }
