@@ -1,10 +1,25 @@
 {
     "include": [
         {
-            "name": "testset",
+            "name": "testset1",
             "mods": [
                 "testmod"
+                "testmod2"
             ]
-        } 
+        },
+        {
+            "name": "testset2",
+            "mods": [
+                "testmod"
+                "testmod3"
+            ]
+        },
+        {
+            "name": "testset3",
+            "mods": [
+                "testmod2"
+                "testmod3"
+            ]
+        }
     ]
 }
