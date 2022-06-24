@@ -17,8 +17,9 @@
         {
             "name": "testset3",
             "mods": [
-                "testmod2",
-                "testmod3"
+                "testmod",
+                "omnilib",
+                "omnimatter"
             ]
         }
     ]

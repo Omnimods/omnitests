@@ -13,5 +13,15 @@
         "name": "testmod3",
         "repository": "Omnimods/testmod3",
         "url": "https://github.com/Omnimods/testmod3"
+    },
+    {
+        "name": "omnilib",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
+    },
+    {
+        "name": "omnimatter",
+        "repository": "Omnimods/Omnimods",
+        "url": "https://github.com/Omnimods/Omnimods"
     }
 ]
