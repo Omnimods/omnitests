@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if [[ -n ${EVENT_REPOSITORY} ]]; then 
-    mod_name=$(jq '.[] | if .repository==env.EVENT_REPOSITORY then .name else empty end' mods.json);
+    mod_name=$(jq '.[] | if '.repository'==env.EVENT_REPOSITORY then '.name' else empty end' mods.json);
 fi
 
 echo -n "::set-output name=matrix::"
