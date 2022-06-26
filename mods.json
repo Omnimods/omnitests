@@ -146,13 +146,13 @@
     },
     {
         "name": "bobtech",
-        "repository": "Afforess/Factorio-Stdlib",
-        "url": "https://github.com/Afforess/Factorio-Stdlib"
+        "repository": "BobsMods/bobsmods",
+        "url": "https://github.com/BobsMods/bobsmods"
     },
     {
         "name": "stdlib",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "Afforess/Factorio-Stdlib",
+        "url": "https://github.com/Afforess/Factorio-Stdlib"
     },
     {
         "name": "pycoalprocessing",
