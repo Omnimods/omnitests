@@ -115,6 +115,39 @@
                 "bobrevamp",
                 "bobtech"
             ]
+        },
+        {
+            "name": "OmniPy",
+            "mods": [
+                "omnilib",
+                "omnimatter",
+                "omnimatter_crystal",
+                "omnimatter_energy",
+                "omnimatter_water",
+                "omnimatter_wood",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "stdlib",
+                "pycoalprocessing",
+                "pycoalprocessinggraphics",
+                "pyindustry",
+                "pyfusionenergy",
+                "pyfusionenergygraphics",
+                "pyhightech",
+                "pyhightechgraphics",
+                "pyrawores",
+                "pyraworesgraphics",
+                "pypetroleumhandling",
+                "pypetroleumhandlinggraphics",
+                "pyalienlife",
+                "pyalienlifegraphics",
+                "pyalienlifegraphics2",
+                "pyalienlifegraphics3",
+                "pyalternativeenergy",
+                "pyalternativeenergygraphics",
+                "pypostprocessing"
+            ]
         }
     ]
 }
