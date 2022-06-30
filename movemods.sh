@@ -1,9 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
-mods=$1
+
 echo "test"
-echo mods
+echo "mods: $1"
 
 jq -c '.[]' mods.json |
 while read -r i; do
