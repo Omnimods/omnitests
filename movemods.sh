@@ -2,14 +2,13 @@
 set -euo pipefail
 
 mod_set_name=$1
-mod_set_name="$mod_set_name" jq -n 'env.mod_set_name'
 echo "1: $1"
 
 
 echo "test1"
 jq '.include[] | select(.name=="pure_omni_qol")' mod-sets.json
 echo "test1"
-jq '.include[] | select(.name==$mod_set_name)' mod-sets.json
+jq '.include[] | select(.name=='\"$mod_set_name\"')' mod-sets.json
 
 
 # jq '.include[]' mod-sets.json |
