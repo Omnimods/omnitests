@@ -5,11 +5,23 @@ mod_set_name=$1
 
 echo "1: $1"
 
-mods=(jq -c '.include' mod-sets.json)
-echo "mods: $mods"
 
-modss=(jq -c '.include.$mod_set_name' mod-sets.json)
-echo "modss: $modss"
+
+jq -c '.include' mod-sets.json |
+while read -r i; do
+    setname=$(echo "$i" | jq -cr '.name')
+    echo "Setname: $setname"
+
+    if [[ $setname == $mod_set_name ]]; then
+        ref=$EVENT_REF
+        included_mods=$(echo "$i" | jq -cr '.mods')
+        echo "FOUND: $included_mods"
+    fi
+    
+done
+
+
+
 
 
 jq -c '.[]' mods.json |
