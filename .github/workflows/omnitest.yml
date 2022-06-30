@@ -59,6 +59,6 @@ jobs:
           repositories: ${{ toJSON(matrix.mods) }}
           token: ${{ secrets.TESTUSER_TOKEN }}
       - name: "Move mods"
-        run: ./movemods.sh "${{ steps.set-matrix.outputs.matrix  }}"
+        run: ./movemods.sh "${{ matrix.mods }}" "${{ steps.set-matrix.outputs  }}" "${{ matrix.name }}" "${{ needs.genereate_matrix.outputs.matrix  }}"
       - name: "TEST: Load Factorio"
         uses: ShadowGlass0/factorio-docker-for-github-actions@main
