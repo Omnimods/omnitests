@@ -6,9 +6,9 @@ mod_set_name=$1
 echo "1: $1"
 
 echo "test00"
-jq '.include' mod-sets.json
+jq '.include.[]' mod-sets.json
 echo "test0"
-echo jq '.include' mod-sets.json
+jq '.include' mod-sets.json
 echo "test1"
 
 
