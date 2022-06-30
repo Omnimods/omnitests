@@ -10,13 +10,13 @@ jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' 
 echo "test2"
 included_set=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' mod-sets.json)
 echo "$included_set"
-if [[ -z $included_set ]]; then
+if [[ -z "$included_set "]]; then
     echo "in"
 else
     echo "out"
 fi
 
-if [[ -n $included_set ]]; then
+if [[ -n "$included_set" ]]; then
     echo "in"
 else
     echo "out"
@@ -25,13 +25,13 @@ fi
 echo "test3"
 included_sett=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("test123")' mod-sets.json)
 echo "$included_sett"
-if [[ -z $included_sett ]]; then
+if [[ -z "$included_sett" ]]; then
     echo "in"
 else
     echo "out"
 fi
 
-if [[ -n $included_sett ]]; then
+if [[ -n "$included_sett" ]]; then
     echo "in"
 else
     echo "out"
