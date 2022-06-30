@@ -8,11 +8,10 @@ echo "1: $1"
 echo "test00"
 jq '.include.[]' mod-sets.json
 echo "test0"
-jq '.include' mod-sets.json
-echo "test1"
 
 
-jq '.include' mod-sets.json |
+
+jq '.include.[]' mod-sets.json |
 while read -r i; do
     setname=$(echo "$i" | jq -cr '.name')
     echo "Setname: $setname"
