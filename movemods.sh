@@ -5,9 +5,10 @@ mod_set_name=$1
 
 echo "1: $1"
 
-echo jq -c '.include' mod-sets.json | jq '.'
+echo "test0"
+echo jq '.include' mod-sets.json
 echo "test1"
-echo jq -c '.[]' mod-sets.json | jq '.'
+echo jq '.[]' mod-sets.json | jq '.'
 echo "test2"
 
 
