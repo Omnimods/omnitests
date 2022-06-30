@@ -13,7 +13,7 @@ included_set=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | ind
 echo "$included_set"
 
 
-if [[ "$included_set" != "NULL" ]]; then
+if [[ "$included_set" != "null" ]]; then
     echo "in"
 else
     echo "out"
@@ -24,7 +24,7 @@ included_sett=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | in
 echo "$included_sett"
 
 
-if [[ "$included_sett" != "NULL" ]]; then
+if [[ "$included_sett" != "null" ]]; then
     echo "in"
 else
     echo "out"
