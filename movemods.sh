@@ -12,20 +12,6 @@ jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' 
 echo "test3"
 jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("test123")' mod-sets.json
 
-# jq '.include[]' mod-sets.json |
-# while read -r i; do
-#     setname=$(echo "$i" | jq -cr '.name')
-#     echo "Setname: $setname"
-
-#     if [[ $setname == $mod_set_name ]]; then
-#         ref=$EVENT_REF
-#         included_mods=$(echo "$i" | jq -cr '.mods')
-#         echo "FOUND: $included_mods"
-#     fi
-    
-# done
-
-
 
 jq -c '.[]' mods.json |
 while read -r i; do
