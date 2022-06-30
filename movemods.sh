@@ -5,14 +5,14 @@ mod_set_name=$1
 
 echo "1: $1"
 
+echo "test00"
+jq '.include' mod-sets.json
 echo "test0"
 echo jq '.include' mod-sets.json
 echo "test1"
-echo jq '.[]' mod-sets.json | jq '.'
-echo "test2"
 
 
-jq -c '.include' mod-sets.json |
+jq '.include' mod-sets.json |
 while read -r i; do
     setname=$(echo "$i" | jq -cr '.name')
     echo "Setname: $setname"
