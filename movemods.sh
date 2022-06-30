@@ -32,7 +32,7 @@ while read -r i; do
     mod_repo=$(echo "$i" | jq -cr '.repository')
     mod_name=$(echo "$i" | jq -cr '.name')
 
-    if [[ ! -f ./"$mod_repo"/"info.json" ]] && [[jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index('\"$mod_name\"')' mod-sets.json]]; then
+    if [[ ! -f ./"$mod_repo"/"info.json" ]] && [[ -n jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index('\"$mod_name\"')' mod-sets.json]]; then
         mod_repo=$mod_repo/$mod_name
     fi
 
