@@ -10,7 +10,7 @@ jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' 
 echo "test2"
 included_set=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' mod-sets.json)
 echo "$included_set"
-if [[ -z "$included_set "]]; then
+if [[ -z "$included_set" ]]; then
     echo "in"
 else
     echo "out"
