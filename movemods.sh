@@ -7,7 +7,7 @@ echo "1: $1"
 
 echo "test1"
 jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' mod-sets.json
-jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnimatter)' mod-sets.json
+jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnimatter")' mod-sets.json
 echo "test2"
 included_set=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods | index("omnilib")' mod-sets.json)
 echo "$included_set"
@@ -17,7 +17,7 @@ else
     echo "out"
 fi
 
-if [[ -n "$included_set" ]]; then
+if [[ "$included_set" == "NULL"]]; then
     echo "in"
 else
     echo "out"
@@ -32,7 +32,7 @@ else
     echo "out"
 fi
 
-if [[ -n "$included_sett" ]]; then
+if [[ "$included_sett" == "NULL" ]]; then
     echo "in"
 else
     echo "out"
