@@ -7,10 +7,12 @@ echo "1: $1"
 
 echo "test0"
 jq '.include[]' mod-sets.json
+echo "test01"
+jq '.include[] | .name' mod-sets.json
 echo "test1"
-jq ".include[] | select(.name=='pure_omni_qol')" mod-sets.json
+jq '.include[] | select(.name=="pure_omni_qol")' mod-sets.json
 echo "test1"
-jq ".include[] | select(.name=='$mod_set_name')" mod-sets.json
+jq '.include[] | select(.name=="$mod_set_name")' mod-sets.json
 
 
 jq '.include[]' mod-sets.json |
