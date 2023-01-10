@@ -54,7 +54,7 @@ jobs:
           token: ${{ secrets.TESTUSER_TOKEN }}
           ref: ${{ inputs.test_ref }}
       - name: "Checkout mods"
-        uses: ShadowGlass0/multi-checkout@v2
+        uses: ShadowGlass0/multi-checkout@v2.1.2
         with:
           repositories: ${{ toJSON(matrix.mods) }}
           token: ${{ secrets.TESTUSER_TOKEN }}
