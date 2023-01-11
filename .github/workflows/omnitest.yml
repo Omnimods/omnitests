@@ -32,7 +32,7 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - id: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: "Omnimods/omnitests"
           token: ${{ secrets.TESTUSER_TOKEN }}
@@ -48,7 +48,7 @@ jobs:
       matrix: ${{ fromJSON(needs.genereate_matrix.outputs.matrix) }}
     steps:
       - name: "Checkout omnitests"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: "Omnimods/omnitests"
           token: ${{ secrets.TESTUSER_TOKEN }}
