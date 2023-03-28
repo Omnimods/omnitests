@@ -126,6 +126,7 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
+                "omnimatter_permutation",
                 "stdlib",
                 "pycoalprocessing",
                 "pycoalprocessinggraphics",
