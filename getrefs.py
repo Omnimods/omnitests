@@ -49,15 +49,15 @@ def main():
         new_mod_set = {"name": mod_set["name"], "mods": []}
         for mod_name in mod_set["mods"]:
             mod_ref = next((mr for mr in mod_refs if mr["name"] == mod_name), None)
-            if mod_ref:
-               new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
-            else:
-               new_mod_set["mods"].append(mod_name)
+            # if mod_ref:
+            #    new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
+            # else:
+            #    new_mod_set["mods"].append(mod_name)
 
-            # if mod_ref and (f"{mod_ref['repository']}@{mod_ref['ref']}" not in new_mod_set["mods"]):
-            #     new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
-            # elif not mod_ref and mod_name not in new_mod_set["mods"]:
-            #     new_mod_set["mods"].append(mod_name)
+            if mod_ref and (f"{mod_ref['repository']}@{mod_ref['ref']}" not in new_mod_set["mods"]):
+                new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
+            elif not mod_ref and mod_name not in new_mod_set["mods"]:
+                new_mod_set["mods"].append(mod_name)
 
         result.append(new_mod_set)
 
