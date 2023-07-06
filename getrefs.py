@@ -57,7 +57,7 @@ def main():
             #    new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
             #else:
             #    new_mod_set["mods"].append(mod_name)
-
+            print(mod_ref['ref'])
             if mod_ref and (mod_ref['ref'] not in new_mod_set["mods"]):
                 new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
             elif mod_name not in new_mod_set["mods"]:
