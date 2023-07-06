@@ -43,7 +43,7 @@ def main():
 
         mod_refs.append({"name": mod["name"], "repository": mod["repository"], "ref": ref})
 
-    print(json.dumps({"mods": mods}, indent=2))
+    #print(json.dumps({"mods": mods}, indent=2))
     print(json.dumps({"mod_refs": mod_refs}, indent=2))
     print(json.dumps({"include_mod_sets": include_mod_sets}, indent=2))
 
@@ -57,8 +57,8 @@ def main():
             #    new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
             #else:
             #    new_mod_set["mods"].append(mod_name)
-            
-            if mod_ref and mod_name not in new_mod_set["mods"]:
+
+            if mod_ref and (mod_ref['ref'] not in new_mod_set["mods"]):
                 new_mod_set["mods"].append(f"{mod_ref['repository']}@{mod_ref['ref']}")
             elif mod_name not in new_mod_set["mods"]:
                 new_mod_set["mods"].append(mod_name)
