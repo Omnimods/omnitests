@@ -43,6 +43,10 @@ def main():
 
         mod_refs.append({"name": mod["name"], "repository": mod["repository"], "ref": ref})
 
+    print(json.dumps({"mods": mods}, indent=2))
+    print(json.dumps({"mod_refs": mod_refs}, indent=2))
+    print(json.dumps({"include_mod_sets": include_mod_sets}, indent=2))
+
     result = []
 
     for mod_set in include_mod_sets:
