@@ -147,6 +147,24 @@
                 "pyalternativeenergygraphics",
                 "pypostprocessing"
             ]
+        },
+		{
+            "name": "OmniK2",
+            "mods": [
+                "omnilib",
+                "omnimatter",
+                "omnimatter_crystal",
+                "omnimatter_energy",
+                "omnimatter_water",
+                "omnimatter_wood",
+                "omnimatter_compression",
+                "omnimatter_fluid",
+                "omnimatter_science",
+                "omnimatter_permutation",
+                "Krastorio2",
+                "Krastorio2Assets",
+                "flib"
+            ]
         }
     ]
 }

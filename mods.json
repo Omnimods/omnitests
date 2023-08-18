@@ -243,5 +243,20 @@
         "name": "pypostprocessing",
         "repository": "pyanodon/pypostprocessing",
         "url": "https://github.com/pyanodon/pypostprocessing"
+    },
+    {
+        "name": "Krastorio2",
+        "repository": "raiguard/Krastorio2",
+        "url": "https://github.com/raiguard/Krastorio2"
+    },
+    {
+        "name": "Krastorio2Assets",
+        "repository": "raiguard/Krastorio2Assets",
+        "url": "https://github.com/raiguard/Krastorio2Assets"
+    },
+    {
+        "name": "flib",
+        "repository": "factoriolib/flib",
+        "url": "https://github.com/factoriolib/flib"
     }
 ]
