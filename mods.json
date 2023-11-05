@@ -81,73 +81,73 @@
     },
     {
         "name": "bobassembly",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobclasses",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobelectronics",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobgreenhouse",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobinserters",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "boblibrary",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "boblogistics",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobmining",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobmodules",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobores",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobplates",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobpower",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobrevamp",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "bobtech",
-        "repository": "BobsMods/bobsmods",
-        "url": "https://github.com/BobsMods/bobsmods"
+        "repository": "modded-factorio/bobsmods",
+        "url": "https://github.com/modded-factorio/bobsmods"
     },
     {
         "name": "stdlib",
