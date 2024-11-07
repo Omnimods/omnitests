@@ -41,7 +41,7 @@ def main():
         else:
             try:
                 branch = repo.get_branch(event_branch)
-            except github.GithubException:
+            except github.GithubException.GithubException:
                 branch = repo.get_branch(repo.default_branch)
             ref = branch.commit.sha
 
