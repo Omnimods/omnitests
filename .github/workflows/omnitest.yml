@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix: ${{ fromJSON(needs.genereate_matrix.outputs.matrix) }}
+      matrix: ${{ fromJSON(needs.generate_matrix.outputs.matrix) }}
     steps:
       - name: "Checkout omnitests"
         uses: actions/checkout@v4
