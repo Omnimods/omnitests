@@ -31,7 +31,7 @@ env:
   EVENT_BRANCH: ${{ inputs.test_branch }}
 
 jobs:
-  genereate_matrix:
+  generate_matrix:
     name: "Generate strategy matrix"
     runs-on: ubuntu-latest
     outputs:
@@ -54,7 +54,7 @@ jobs:
           echo 'EOF' >> $GITHUB_OUTPUT
   load_test:
     name: ${{ format('CrashTest {0}', matrix.name) }}
-    needs: genereate_matrix
+    needs: generate_matrix
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
