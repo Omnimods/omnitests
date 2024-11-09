@@ -5,7 +5,8 @@
             "mods": [
                 "omnilib",
                 "omnimatter"
-            ]
+            ],
+            "use_SA": true
         },
         {
             "name": "pure_omni_qol",
@@ -15,7 +16,8 @@
                 "omnimatter_fluid",
                 "omnimatter_science",
                 "omnimatter_move"
-            ]
+            ],
+            "use_SA": true
         },
         {
             "name": "pure_omni_full",
@@ -29,7 +31,8 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science"
-            ]
+            ],
+            "use_SA": true
         },
         {
             "name": "AZ",
@@ -48,7 +51,8 @@
                 "angelsindustries",
                 "angelspetrochem",
                 "angelsbioprocessing"
-            ]
+            ],
+            "use_SA": true
         },
         {
             "name": "BZ",
@@ -76,7 +80,8 @@
                 "bobpower",
                 "bobrevamp",
                 "bobtech"
-            ]
+            ],
+            "use_SA": true
         },
         {
             "name": "ABZ",
@@ -109,7 +114,8 @@
                 "bobpower",
                 "bobrevamp",
                 "bobtech"
-            ]
+            ],
+            "use_SA": true
         },
         {
             "name": "OmniPy",
@@ -139,7 +145,8 @@
                 "pyalternativeenergy",
                 "pyalternativeenergygraphics",
                 "pypostprocessing"
-            ]
+            ],
+            "use_SA": false
         },
 		{
             "name": "OmniK2",
@@ -156,7 +163,8 @@
                 "Krastorio2",
                 "Krastorio2Assets",
                 "flib"
-            ]
+            ],
+            "use_SA": true
         }
     ]
 }
