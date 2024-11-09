@@ -7,7 +7,7 @@ echo "mods to move: $(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mod
 
 use_SA=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .use_SA' mod-sets.json)
 echo "Use SA = $use_SA"
-echo $[[ $use_SA" == "false" ]]$?
+echo $[[ $use_SA == false ]]$?
 
 jq -c '.[]' mods.json |
 while read -r i; do
