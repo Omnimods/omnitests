@@ -7,7 +7,7 @@ echo "mods to move: $(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mod
 
 use_SA=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .use_SA' mod-sets.json)
 echo "Use SA = $use_SA"
-echo $[[ $use_SA == false ]]$?
+echo $[[ $use_SA == "false" ]]$?
 
 jq -c '.[]' mods.json |
 while read -r i; do
@@ -25,7 +25,7 @@ while read -r i; do
         mv ./"$mod_repo"/* ./factorio/mods/"$mod_name"
         rm -r ./"$mod_repo"
 
-        if [[ $use_SA == false ]] && [[ ! -f "./factorio/mods/mod-list.json" ]]; then
+        if [[ $use_SA == "false" ]] && [[ ! -f "./factorio/mods/mod-list.json" ]]; then
             echo "Moved mod mod-list.json to disable SA"
             mv "mod-list.json" "./factorio/mods/"
         fi
