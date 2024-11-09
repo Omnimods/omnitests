@@ -14,8 +14,7 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
-                "omnimatter_move",
-                "omnimatter_permutation"
+                "omnimatter_move"
             ]
         },
         {
@@ -29,8 +28,7 @@
                 "omnimatter_wood",
                 "omnimatter_compression",
                 "omnimatter_fluid",
-                "omnimatter_science",
-                "omnimatter_permutation"
+                "omnimatter_science"
             ]
         },
         {
@@ -45,7 +43,6 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
-                "omnimatter_permutation",
                 "angelssmelting",
                 "angelsrefining",
                 "angelsindustries",
@@ -65,7 +62,6 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
-                "omnimatter_permutation",
                 "bobassembly",
                 "bobclasses",
                 "bobelectronics",
@@ -94,7 +90,6 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
-                "omnimatter_permutation",
                 "angelssmelting",
                 "angelsrefining",
                 "angelsindustries",
@@ -126,7 +121,6 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
-                "omnimatter_permutation",
                 "stdlib",
                 "pycoalprocessing",
                 "pycoalprocessinggraphics",
@@ -160,7 +154,6 @@
                 "omnimatter_compression",
                 "omnimatter_fluid",
                 "omnimatter_science",
-                "omnimatter_permutation",
                 "Krastorio2",
                 "Krastorio2Assets",
                 "flib"
