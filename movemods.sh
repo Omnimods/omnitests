@@ -6,11 +6,7 @@ mod_set_name=$1
 echo "mods to move: $(jq '.include[] | select(.name=='\"$mod_set_name\"') | .mods' mod-sets.json)"
 
 use_SA=$(jq '.include[] | select(.name=='\"$mod_set_name\"') | .use_SA' mod-sets.json)
-echo "Use SA = $use_SA"
-
-if [[ "$use_SA" == "false" ]]; then
-    echo "y"
-fi
+echo "Load with SA enabled = $use_SA"
 
 jq -c '.[]' mods.json |
 while read -r i; do
