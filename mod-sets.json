@@ -146,7 +146,7 @@
                 "pyalternativeenergygraphics",
                 "pypostprocessing"
             ],
-            "use_SA": "false"
+            "use_SA": false
         },
 		{
             "name": "OmniK2",
