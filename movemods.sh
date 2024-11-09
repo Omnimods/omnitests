@@ -23,9 +23,9 @@ while read -r i; do
         mv ./"$mod_repo"/* ./factorio/mods/"$mod_name"
         rm -r ./"$mod_repo"
 
-        if [[ "$use_SA" != true ]] && [[ ! -f "./factorio/mods/info.json" ]]; then
+        if [[ "$use_SA" != true ]] && [[ ! -f "./factorio/mods/mod-list.json.json" ]]; then
             echo "Moved mod mod-list.json to disable SA"
-            mv ./mod-list.json ./factorio/mods/
+            mv "mod-list.json" "./factorio/mods/"
         fi
     fi
 done
