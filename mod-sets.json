@@ -162,9 +162,10 @@
                 "omnimatter_science",
                 "Krastorio2",
                 "Krastorio2Assets",
+		"ChangeInserterDropLane",
                 "flib"
             ],
-            "use_SA": true
+            "use_SA": false
         }
     ]
 }
