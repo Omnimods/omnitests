@@ -255,6 +255,11 @@
         "url": "https://github.com/raiguard/Krastorio2Assets"
     },
     {
+        "name": "Krastorio2",
+        "repository": "raiguard/ChangeInserterDropLane",
+        "url": "https://github.com/raiguard/ChangeInserterDropLane"
+    },
+    {
         "name": "flib",
         "repository": "factoriolib/flib",
         "url": "https://github.com/factoriolib/flib"
