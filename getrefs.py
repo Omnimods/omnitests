@@ -44,12 +44,12 @@ def main():
         if mod["repository"] == event_repository:
             ref = event_ref
         else:
-            #br = repo.default_branch
-            #if mod["branch"]
-            #    br = mod["branch"]
+            br = repo.default_branch
+            if mod["branch"]
+                br = mod["branch"]
             try:
-                #branch = repo.get_branch(br)
-                branch = repo.get_branch(repo.default_branch)
+                branch = repo.get_branch(br)
+                #branch = repo.get_branch(repo.default_branch)
             except GithubException:
                 branch = repo.get_branch(repo.default_branch)
             ref = branch.commit.sha
