@@ -45,12 +45,9 @@ def main():
             ref = event_ref
         else:
             try:
-                branch = repo.get_branch(event_branch)
+                branch = repo.get_branch(mod["branch"])
             except GithubException:
-                try:
-                    branch = repo.get_branch(mod["branch"])
-                except GithubException:
-                    branch = repo.get_branch(repo.default_branch)
+                branch = repo.get_branch(repo.default_branch)
             ref = branch.commit.sha
 
         mod_refs.append({"name": mod["name"], "repository": mod["repository"], "ref": ref})
