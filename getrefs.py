@@ -45,7 +45,7 @@ def main():
             ref = event_ref
         else:
             br = repo.default_branch
-            if mod["branch"]:
+            if "branch" in mod:
                 br = mod["branch"]
             try:
                 branch = repo.get_branch(br)
