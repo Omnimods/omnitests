@@ -140,6 +140,7 @@
                 "pycoalprocessing",
                 "pycoalprocessinggraphics",
                 "pyindustry",
+				"pyindustrygraphics",
                 "pyfusionenergy",
                 "pyfusionenergygraphics",
                 "pyhightech",
