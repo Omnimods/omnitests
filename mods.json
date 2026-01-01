@@ -202,6 +202,11 @@
     {
         "name": "pyindustry",
         "repository": "pyanodon/pyindustry",
+        "url": "https://github.com/pyanodon/pyindustrygraphics"
+    },
+    {
+        "name": "pyindustrygraphics",
+        "repository": "pyanodon/pyindustry",
         "url": "https://github.com/pyanodon/pyindustry"
     },
     {
