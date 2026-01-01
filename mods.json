@@ -57,7 +57,8 @@
     {
         "name": "angelssmelting",
         "repository": "Arch666Angel/mods",
-        "url": "https://github.com/Arch666Angel/mods"
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
     },
     {
         "name": "angelsrefining",
@@ -68,17 +69,20 @@
     {
         "name": "angelsindustries",
         "repository": "Arch666Angel/mods",
-        "url": "https://github.com/Arch666Angel/mods"
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
     },
     {
         "name": "angelspetrochem",
         "repository": "Arch666Angel/mods",
-        "url": "https://github.com/Arch666Angel/mods"
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
     },
     {
         "name": "angelsbioprocessing",
         "repository": "Arch666Angel/mods",
-        "url": "https://github.com/Arch666Angel/mods"
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
     },
     {
         "name": "bobassembly",
