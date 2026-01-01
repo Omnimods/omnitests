@@ -202,12 +202,12 @@
     {
         "name": "pyindustry",
         "repository": "pyanodon/pyindustry",
-        "url": "https://github.com/pyanodon/pyindustrygraphics"
+        "url": "https://github.com/pyanodon/pyindustry"
     },
     {
         "name": "pyindustrygraphics",
-        "repository": "pyanodon/pyindustry",
-        "url": "https://github.com/pyanodon/pyindustry"
+        "repository": "pyanodon/pyindustrygraphics",
+        "url": "https://github.com/pyanodon/pyindustrygraphics"
     },
     {
         "name": "pyfusionenergy",
