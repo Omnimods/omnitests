@@ -61,7 +61,19 @@
         "branch": "dev2.0"
     },
     {
+        "name": "angelssmeltinggraphics",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
+    },
+    {
         "name": "angelsrefining",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
+    },
+    {
+        "name": "angelsrefininggraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
         "branch": "dev2.0"
@@ -73,13 +85,31 @@
         "branch": "dev2.0"
     },
     {
+        "name": "angelsindustriesgraphics",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
+    },
+    {
         "name": "angelspetrochem",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
         "branch": "dev2.0"
     },
     {
+        "name": "angelspetrochemgraphics",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
+    },
+    {
         "name": "angelsbioprocessing",
+        "repository": "Arch666Angel/mods",
+        "url": "https://github.com/Arch666Angel/mods",
+        "branch": "dev2.0"
+    },
+    {
+        "name": "angelsbioprocessinggraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
         "branch": "dev2.0"
