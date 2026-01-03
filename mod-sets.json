@@ -158,26 +158,6 @@
                 "pypostprocessing"
             ],
             "use_SA": false
-        },
-		{
-            "name": "OmniK2",
-            "mods": [
-                "omnilib",
-                "omnimatter",
-                "omnimatter_crystal",
-                "omnimatter_energy",
-                "omnimatter_water",
-                "omnimatter_wood",
-                "omnimatter_compression",
-                "omnimatter_fluid",
-                "omnimatter_science",
-                "Krastorio2",
-                "Krastorio2Assets",
-				"Krastorio2MenuSimulations",
-				"ChangeInserterDropLane",
-                "flib"
-            ],
-            "use_SA": false
         }
     ]
 }
