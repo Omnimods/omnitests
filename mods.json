@@ -285,26 +285,6 @@
         "url": "https://github.com/pyanodon/pypostprocessing"
     },
     {
-        "name": "Krastorio2",
-        "repository": "raiguard/Krastorio2",
-        "url": "https://codeberg.org/raiguard/Krastorio2"
-    },
-    {
-        "name": "Krastorio2Assets",
-        "repository": "raiguard/Krastorio2Assets",
-        "url": "https://codeberg.org/raiguard/Krastorio2Assets"
-    },
-    {
-        "name": "Krastorio2MenuSimulations",
-        "repository": "raiguard/Krastorio2MenuSimulations",
-        "url": "https://codeberg.org/raiguard/Krastorio2MenuSimulations"
-    },
-    {
-        "name": "ChangeInserterDropLane",
-        "repository": "raiguard/ChangeInserterDropLane",
-        "url": "https://codeberg.org/raiguard/ChangeInserterDropLane"
-    },
-    {
         "name": "flib",
         "repository": "factoriolib/flib",
         "url": "https://github.com/factoriolib/flib"
