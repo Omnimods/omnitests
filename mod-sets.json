@@ -55,9 +55,12 @@
                 "angelsbioprocessing",
 				"angelsbioprocessinggraphics",
 				"angelsaddons-storage",
-				"angelsaddons-mobility",
 				"angelsaddons-cab",
-				"angelsaddons-bots"
+				"angelsaddons-bots",
+				"angelsaddons-mobility",
+				"angelsaddons-mobility-graphics-crawler",
+				"angelsaddons-mobility-graphics-petro",
+				"angelsaddons-mobility-graphics-smelting"
             ],
             "use_SA": true
         },
@@ -111,9 +114,12 @@
                 "angelsbioprocessing",
 				"angelsbioprocessinggraphics",
 				"angelsaddons-storage",
-				"angelsaddons-mobility",
 				"angelsaddons-cab",
 				"angelsaddons-bots",
+				"angelsaddons-mobility",
+				"angelsaddons-mobility-graphics-crawler",
+				"angelsaddons-mobility-graphics-petro",
+				"angelsaddons-mobility-graphics-smelting",
                 "bobassembly",
                 "bobclasses",
                 "bobelectronics",
