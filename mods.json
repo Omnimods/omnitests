@@ -58,173 +58,187 @@
         "name": "angelssmelting",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelssmeltinggraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsrefining",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsrefininggraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsindustries",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsindustriesgraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelspetrochem",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelspetrochemgraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsbioprocessing",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsbioprocessinggraphics",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-bots",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-cab",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-storage",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-mobility",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-mobility-graphics-crawler",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-mobility-graphics-petro",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "angelsaddons-mobility-graphics-smelting",
         "repository": "Arch666Angel/mods",
         "url": "https://github.com/Arch666Angel/mods",
-        "branch": "dev"
+        "branch": "dev2.1"
     },
     {
         "name": "bobassembly",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobclasses",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobelectronics",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobgreenhouse",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobinserters",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "boblibrary",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "boblogistics",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobmining",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobmodules",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobores",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobplates",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobpower",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobrevamp",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "bobtech",
         "repository": "modded-factorio/bobsmods",
-        "url": "https://github.com/modded-factorio/bobsmods"
+        "url": "https://github.com/modded-factorio/bobsmods",
+        "branch": "dev2.1"
     },
     {
         "name": "stdlib",
